@@ -1,0 +1,50 @@
+/*In this section we also use:
+
+width (of an element).
+background-color, the color behind an element's content and padding.
+color, the color of an element's content (usually text).
+text-shadow sets a drop shadow on the text inside an element.
+display sets the display mode of an element. (keep reading to learn more)*/
+
+html {
+    font-size: : 10px;
+    font-family: "Work Sans", sans-serif;
+    background-color: #e5d0a4;
+}
+
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #f9f5eb;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+h1{
+    font-size: 32px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #3e533e;
+    text-shadow: 3px 1px 1px black;
+}
+
+h2{
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #3e533e;
+    text-shadow: 2px 1px 1px black;
+}
+
+p, li {
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 1.5px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
